@@ -10,7 +10,7 @@ import bike4 from "../../../../assets/images/slider/bike4.png"
 
 const Banner = () => {
     return (
-        <div className='bg-[#ffe2db] rounded-lg'>
+        <div className='bg-[#ffe2db] rounded-xl'>
             <Swiper
                 navigation={true}
                 modules={[Navigation, Autoplay]}
