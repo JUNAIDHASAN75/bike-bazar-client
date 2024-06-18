@@ -3,6 +3,8 @@ import {
 } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
+import Dashboard from "../Pages/DashBoard/Dashboard";
+import UserReviewAdd from "../Pages/DashBoard/UserReview/UserReviewAdd";
 
 export const router = createBrowserRouter([
     {
@@ -18,4 +20,14 @@ export const router = createBrowserRouter([
             }
         ]
     },
+    {
+        path:'/dashboard',
+        element: <Dashboard></Dashboard>,
+        children: [
+            {
+                path:'/dashboard/reviews_add',
+                element: <UserReviewAdd></UserReviewAdd>
+            }
+        ]
+    }
 ]);

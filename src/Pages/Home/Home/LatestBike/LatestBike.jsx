@@ -5,9 +5,10 @@ import latest2 from "../../../../assets/images/others/latest2.png"
 import latest3 from "../../../../assets/images/others/latest3.png"
 const LatestBike = () => {
     return (
-        <div className="my-32">
+        <div className="my-32 ">
+           
             <HeaderTitle title={"latest News"}></HeaderTitle>
-            <div className="mt-14 lg:flex gap-5 justify-center">
+            <div className="mt-14 lg:flex gap-5 justify-center py-4 bg-red-50">
                 <div className="card w-96 bg-white border">
                     <figure className="px-8 pt-10">
                         <img src={latest1} alt="Shoes" className="rounded-lg" />
