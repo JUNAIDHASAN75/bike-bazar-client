@@ -17,6 +17,7 @@ const Dashboard = () => {
                     <ul className=" p-4 w-80 min-h-full bg-[#E76F51]  space-y-4 text-xl text-white">
                         {/* Sidebar content here */}
                         <li><Link to="/dashboard/reviews_add">Add Reviews</Link></li>
+                        <li><Link to="/dashboard/addbikes">Add Bike</Link></li>
                         <li><a>Sidebar Item 2</a></li>
                     </ul>
 

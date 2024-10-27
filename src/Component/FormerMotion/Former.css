@@ -1,0 +1,20 @@
+.menu {
+    background-color: #6f00ff;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .menu-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    background-color: white;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
